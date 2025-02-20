@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
-      <TextInput/>
+      <TextInput placeholder='Text' style= {{}}/>
       <StatusBar style="dark" />
     </View>
   );
@@ -18,4 +18,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+
+  TextInput: {borderWidth: 1, width: "100%"}
 });
